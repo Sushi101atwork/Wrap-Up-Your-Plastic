@@ -1,0 +1,163 @@
+@font-face {
+    font-family: font1;
+    src: url("./peace-sans/peace_sans.otf");
+  }
+
+  .main{
+    display: flex;
+  }
+  .right{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 65vw;
+}
+.bam{
+    height: 100vh;
+    margin-top:0px;
+    padding: 0px;
+}
+.panda{
+    position: absolute;
+    top:200px;
+    right:1100px;
+}
+
+.d-flex{
+    margin-top:-200px;
+    float: right;
+}
+
+.head{
+    font-family:font1;
+    font-size: 100px;
+    text-align: center;
+    color: #495834;
+    margin-right: 150px;
+}
+.nav-link{
+    color: #799255;
+}
+
+#problem{
+    height: 50vw;
+    display: flex;
+    padding-top: -15px;
+}
+.head-2{
+    font-family:font1;
+    font-size: 70px;
+    text-align: center;
+    color: #7a9457;
+    margin-top: 3vw;
+   
+}
+.three{
+    margin-left:-10vw;
+   
+}
+
+
+
+.box{
+    height: 350px;
+    width: 350px;
+    border-radius: 100%;
+    background-color: #f7face;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes{
+    display: flex;
+}
+
+.box-img{
+    height: 330px;
+    width: 330px;
+    border-radius: 100%;
+    opacity: 30%;
+}
+
+p{
+    position: absolute;
+    top:1000px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+    font-weight: bolder;
+    color: #1c2718;
+    width: 250px;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+#solution{
+    width:85vw;
+    display: flex;
+    margin-top: -30px;
+    padding-top: 0px;
+}
+
+.cut{
+    text-decoration-line: line-through;
+    color: rgb(255, 146, 146);
+    font-family: font1;
+
+}
+.ans{
+    color:#343f25;
+    font-family: font1;
+
+}
+
+.right3{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    width: 150vw;
+}
+
+.do{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+
+}
+
+.do-img{
+    height: 330px;
+    width: 330px;
+    border-radius: 100%;
+    margin-left:100px;
+}
+
+h3{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+    font-weight: bolder;
+    color: #4c5c36;
+    text-align: center;
+    width: 700px;
+}
+
+.box2{
+    height: 300px;
+    width: 300px;
+    background: rgb(136, 192, 99);
+}
+
+.bag{
+    height:600px;
+    width:400px;
+    margin-left:200px;
+}
+
+footer{
+    background-color: #7a9457;
+    display: flex;
+    padding:100px;
+    color:white;
+    justify-content: center;
+}
